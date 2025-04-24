@@ -1,0 +1,26 @@
+/* src/pages/register/Register.css */
+.register-card {
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.register-image {
+  background-color: #f8f9fa;
+  order: 2; /* Memindahkan ilustrasi ke kanan */
+}
+
+@media (max-width: 767.98px) {
+  .register-card {
+    margin: 20px;
+  }
+  
+  .register-image {
+    order: initial;
+  }
+}
+
+.progress-bar {
+  background-color: #112ba6;
+}
